@@ -1,0 +1,56 @@
+.list-group-item {
+    margin-bottom: 1rem;
+
+    border: 1px solid rgba(0,0,0,.125) !important;
+    border-radius: 2rem !important;
+}
+.list-group-item.active {
+    border: 1px solid rgba(0,0,0,.125) !important;
+}
+.list-group-item:focus{
+    outline: none;
+}
+.list-group-item-header {
+    font-size: 1.2rem;
+}
+
+.card {
+    margin-bottom: 1rem;
+}
+
+.ntnt-scroll {
+    padding-right: 1rem;
+
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
+.ntnt-scroll::-webkit-scrollbar {
+    width: 10px;
+
+    border-radius: 10px;
+}
+
+/* Track */
+.ntnt-scroll::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    
+    border-radius: 10px;
+}
+
+/* Handle */
+.ntnt-scroll::-webkit-scrollbar-thumb {
+    background: var(--gray);
+    
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+.ntnt-scroll::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+.ntnt-card{
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 2rem;
+    overflow: hidden;
+}
